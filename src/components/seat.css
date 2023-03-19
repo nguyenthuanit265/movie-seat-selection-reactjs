@@ -1,0 +1,33 @@
+.seat {
+  background-color: whitesmoke;
+  color: black;
+  border: 2px solid orange;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.seat:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.seat-init {
+  background-color: transparent;
+  width: 40px;
+  transition: all 0.3s;
+  color: yellow;
+  border: none;
+  font-weight: bold;
+}
+
+.seat.booked {
+  background-color: orange;
+  border: none;
+}
+
+.seat.booking {
+  background-color: greenyellow;
+  color: #000;
+}
